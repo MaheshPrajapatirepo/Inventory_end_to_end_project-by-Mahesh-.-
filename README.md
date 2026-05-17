@@ -147,9 +147,6 @@ Opens the app at `http://localhost:8501`
 | Logistic Regression | 82.87% | 85.54% |
 | Decision Tree | 91.70% | 92.25% |
 | Random Forest | 91.16% | 94.53% |
-| **Tuned Random Forest** ✅ | **—** | **—** |
-
-> 📌 Fill in Tuned Random Forest results after running `main_classification.py`
 
 **Best Model Parameters (Tuned Random Forest):**
 ```python
