@@ -21,8 +21,9 @@ anaconda/
 models/*.pkl
  
 # ── Outputs / Plots ──────────────────────────────────
-outputs/*.png
-outputs/*.jpg
+outputs/regression_actual_vs_predicted.png
+outputs/confusion_matrices.png
+outputs/feature_importance.png
  
 # ── Database ─────────────────────────────────────────
 *.db
