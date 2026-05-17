@@ -55,12 +55,13 @@ def plot_feature_importance(model, feature_names):
         'Importance': model.feature_importances_
     }).sort_values(by='Importance', ascending=False)
 
-    plt.figure(figsize=(8, 5))
-    sns.barplot(data=fi, x='Importance', y='Feature')
-    plt.title('Feature Importance — Random Forest')
+    fig, ax = plt.subplots(figsize=(8, 5))
+    sns.barplot(data=fi, x='Importance', y='Feature', ax=ax)
+    ax.set_title('Feature Importance — Random Forest')
     plt.tight_layout()
-    plt.savefig(os.path.join(os.path.dirname(__file__), "../../outputs/confusion_matrices.png"), bbox_inches='tight')
-    plt.savefig(os.path.join(os.path.dirname(__file__), "../../outputs/feature_importance.png"))
+
+    # ✅ Only one savefig — correct file name
+    plt.savefig('outputs/feature_importance.png', bbox_inches='tight')
     plt.show()
     plt.close()
 
