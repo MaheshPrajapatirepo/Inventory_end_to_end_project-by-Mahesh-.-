@@ -5,9 +5,13 @@ An end-to-end Machine Learning project that predicts **freight cost** and flags 
 ---
 
 ## 📸 App Screenshot
-
+1. HomePage
 ![App Screenshot](outputs/app_ss1.png)
+
+2. Predict Freight Cost
 ![App Screenshot](outputs/app_ss2.png)
+
+3. Invoice Mannual Approval Checker
 ![App Screenshot](outputs/app_ss3.png)
 
 ---
