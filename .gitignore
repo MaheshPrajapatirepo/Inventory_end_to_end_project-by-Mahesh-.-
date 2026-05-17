@@ -1,0 +1,48 @@
+# ── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+ 
+# ── Virtual Environments ─────────────────────────────
+venv/
+env/
+.env
+.venv
+miniconda/
+anaconda/
+ 
+# ── Jupyter Notebooks Checkpoints ────────────────────
+.ipynb_checkpoints/
+*.ipynb
+ 
+# ── Models (large files) ─────────────────────────────
+models/*.pkl
+ 
+# ── Outputs / Plots ──────────────────────────────────
+outputs/*.png
+outputs/*.jpg
+ 
+# ── Database ─────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+ 
+# ── macOS ─────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+ 
+# ── VSCode ───────────────────────────────────────────
+.vscode/
+*.code-workspace
+ 
+# ── Logs ─────────────────────────────────────────────
+*.log
+logs/
+ 
+# ── Misc ─────────────────────────────────────────────
+*.csv
+*.xlsx
+*.zip
